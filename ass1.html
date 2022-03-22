@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass1.css">
+</head>
+
+<body>
+    <div class="logobar">
+        <div class="logo-account">
+            <div class="logo-border">
+                <span>e!</span>
+            </div>
+            <div class="button-container">
+                <button id="first-btn">Login</button>
+                <button id="second-btn">Create an account</button>
+            </div>
+        </div>
+    </div>
+    <div class="heading">
+        <h1>Breakfast places in Mumbai</h1>
+    </div>
+    <div class="filter">
+        <h2>Filters</h2>
+        <h3>Select Location</h3>
+        <select name="" id="select-location">
+            <option value="location" selected>Select Location</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+
+        <h3 id="h3-2">Cuisine</h3>
+        <div class="cuisine" >
+            <input type="checkbox">
+            <label for="North Indian">North Indian</label><br>
+            <input type="checkbox">
+            <label for="south Indian">South Indian</label> <br>
+            <input type="checkbox">
+            <label for="Chinese">Chinese</label> <br>
+            <input type="checkbox">
+            <label for="Fast Food">Fast Food</label><br>
+            <input type="checkbox">
+            <label for="Street Food">Street Food</label>
+        </div>
+
+        <h3 id="h3-2">Cost For Two</h3>
+        <div class="cost">
+            <input type="radio">
+            <label for="less-than">Less than `500</label><br>
+            <input type="radio">
+            <label for="south Indian">`500 to `1000</label> <br>
+            <input type="radio">
+            <label for="Chinese">`1000 to `1500</label> <br>
+            <input type="radio">
+            <label for="Fast Food">`1500 to `2000</label><br>
+            <input type="radio">
+            <label for="Street Food">`2000+</label>
+        </div>
+        <h2>Sort</h2>
+        <div class="sort">
+            <input type="radio">
+            <label for="low-to-high">Price low to high</label><br>
+            <input type="radio">
+            <label for="high-to-low">Price high to low</label>
+        </div>
+    </div>
+    <div class="search-results box1">
+        <div style="display: flex;flex-direction: row;padding: right 25px;padding-bottom: 30px;">
+            <div class="image">
+                <img src="cuisine.png" alt="" style="border-radius: 20px;width: 120px;
+                height: 120px;">
+            </div>
+
+            <div class="info">
+                <h1>The Big Chill Cakery</h1>
+                <h2>Fort</h2>
+                <h3>Shop 1,Plot D,Samruddhi Complex, Chincholi...</h3>
+            </div>
+        </div>
+        <hr style="margin-top: -13px; width: 726px;height: 0px;border: 1px solid #DEDFE5;opacity: 1;">
+        <div style="display: flex;flex-direction: row;">
+            <div class="info-2">
+                <h3 style="margin-bottom: -13px;">CUISINES:</h3>
+                <h3>COST FOR TWO:</h3>
+            </div>
+            <div class="info-3">
+                <h3 style="margin-bottom: -20px;margin-top: 13px;">Bakery</h3>
+                <h3>₹700</h3>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="search-results box2">
+        <div style="display: flex;flex-direction: row;padding: right 25px;padding-bottom: 30px;">
+            <div class="image">
+                <img src="cuisine.png" alt="" style="border-radius: 20px;width: 120px;
+                height: 120px;">
+            </div>
+
+            <div class="info">
+                <h1>The Big Chill Cakery</h1>
+                <h2>Fort</h2>
+                <h3>Shop 1,Plot D,Samruddhi Complex, Chincholi...</h3>
+            </div>
+        </div>
+        <hr style="margin-top:-13px; width: 726px;height: 0px;border: 1px solid #DEDFE5;opacity: 1;">
+        <div style="display: flex;flex-direction: row;">
+            <div class="info-2">
+                <h3 style="margin-bottom: -13px;">CUISINES:</h3>
+                <h3>COST FOR TWO:</h3>
+            </div>
+            <div class="info-3">
+                <h3 style="margin-bottom: -20px;margin-top: 13px;">Bakery</h3>
+                <h3>₹700</h3>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="pagination">
+         <button> < </button>
+         <button style="color: #FFFFFF;background: #070d1d 0% 0% no-repeat padding-box;">1</button>
+         <button>2</button>
+         <button>3</button>
+         <button>4</button>
+         <button>5</button>
+         <button> > </button>
+    </div>
+</body>
+
+</html>

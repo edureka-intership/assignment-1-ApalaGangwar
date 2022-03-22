@@ -1,0 +1,291 @@
+
+body{
+    top: 0px;
+    /* UI Properties */
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1399px;
+    left: 0px;
+}
+.logobar{
+    position: relative;
+    top: 0px;
+    width: 1510px;
+    height: 80px;
+    /* UI Properties */
+    background: #CE0505 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logobar .logo-account{
+    position: relative;
+    top: 15px;
+    left: 90px;
+   
+    height: 52px;
+    /* UI Properties */
+    opacity: 1;
+
+}
+.logobar .logo-border{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 1;
+}
+.logobar span{
+  position: relative;
+  font-family: Poppins;
+  top: 0px;
+  left: 14px;
+  width: 32px;
+  height: 47px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 33px/50px Poppins;
+  letter-spacing: 0px;
+  color: #EB2929;
+  opacity: 1;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: -35px;
+    margin-left:928px;
+}
+.button-container #first-btn{
+   position: relative;
+    text-align: left;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    background-color: #CE0505;
+    width: 43px;
+height: 23px;
+margin-left: 40px;
+padding-right: 50px;
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+.button-container #second-btn{
+    position: relative;
+    text-align: left;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    background-color:#CE0505 ;
+    border: 1px solid #FFFFFF;
+    margin-top: -10px;
+    border-radius: 3px;
+    opacity: 1;
+    opacity: 1;
+}
+.heading{
+  
+    position: relative;
+    font-family:Poppins;  
+    text-align: left;
+    font-weight: bold;
+    
+    font: normal normal bold 25px/58px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    left: 100px;
+}
+.filter{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin-top: 10px;
+    width: 260px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    height: 650px;
+}
+.filter h2{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    width: 55px;
+height: 25px;
+    left: 20px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.filter h3{
+    position: relative;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    left: 20px;
+}
+.filter #select-location{
+    position: relative;
+    padding: 10px;
+    width: 220px;
+    color: #94969b;
+    /* UI Properties */
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+    left: 20px;
+}
+
+.filter .cuisine {
+    position: relative;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    left: 20px;
+}
+.filter .cuisine label{
+    width: 86px;
+height: 20px;
+font-size: medium;
+line-height: 28px;
+}
+.filter .cost{
+    position: relative;
+    left: 20px;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    text-align: left;
+}
+.filter .cost label{
+    line-height: 28px;
+    font-size: medium;
+}
+.filter .sort{
+    position: relative;
+    left: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.filter .sort label{
+    line-height: 28px;
+    font-size: medium;
+}
+.search-results{
+  position: relative;
+  flex-grow: 1;
+ 
+  
+  width: 794px;
+  height: 291px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  left: 418px;
+}
+.search-results .image{
+    position: relative;
+    
+    top: 30px;
+    left: 35px;
+opacity: 1;
+}
+.search-results .info h1{
+    position: relative;
+    margin-bottom: -13px ;
+    padding-top:20px ;
+    left: 70px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    width: 303px;
+}
+.search-results .info h2{
+    position: relative;
+    left: 70px;
+    margin-bottom: -13px ;
+    
+
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.search-results .info h3{
+    position: relative;
+    left: 70px;
+    width: 370px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+.search-results .info-2{
+    padding-right: 40px;
+    padding-left: 35px;
+    text-align: left;
+    font: normal normal normal 12px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    position: relative;
+}
+.search-results .info-3{
+    position: relative;
+
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.box1{
+    position: relative;
+    margin-top: -650px;
+    margin-bottom: 25px;
+}
+.pagination{
+    position: relative;
+    padding-top: 20px;
+   display: flex;
+left: 650px;
+width: 36px;
+opacity: 0.4;
+}
+.pagination button{
+  position: relative;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #323846;
+border-radius: 7px;
+opacity: 1;
+margin: 10px 5px;
+padding: 2px 10px;
+height: 30px;
+text-align: left;
+font: normal normal medium 20px/30px Poppins;
+letter-spacing: 0px;
+color: #000207;
+opacity: 1;
+}
